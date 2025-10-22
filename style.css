@@ -1,0 +1,202 @@
+body{
+    background-color: #dfe8ef;
+    margin: 0;
+}
+
+h1{
+    text-align: left;
+    font-size: 70px;
+    color: white
+}
+.topo{
+    background-color: #004aad;
+    display: flex;
+    background-color: rgb(5, 87, 158);
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 270px;
+    height: 150px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.titulo h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+
+}
+.menu{
+    display: flex;
+    justify-content: center; /*alinha o menu*/
+    align-items: center;
+    background-color: #2c3e82;
+    overflow: hidden;
+    position: relative; /*serve de ajuste pra mexer em algum elementeo mais livremente*/
+
+}
+.menu a{
+    color:rgb(255, 255, 255);
+    padding: 14px 16px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner {
+    /* cor de fundo igual à imagem */
+    background: #e0e6ed; /* cor clara de fundo */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.texto h3 {
+    color: #2c3e70;
+    font-size:70px;
+    margin:  20px;
+}
+
+.prefeitura {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 30px;
+    color: #2c3e70;
+    padding-left: 40px; /*trazendo a imagem pra esquerda*/
+}
+
+
+.imagem-equipe img {
+    border: 10px solid #2c3e70; /* moldura azul como na imagem */
+    max-width: 900px;
+    height: auto;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center; /* centraliza */
+    flex-wrap: wrap; /* quebra linha no celular */
+    gap: 20px; /* espaçamento entre os cards */
+}
+
+
+h4{
+    font-size: 70px;
+    margin: 0 auto;
+    text-align: center;
+    color: #004aad;
+}
+
+.card {
+    background-color: #004aad; /* azul do card */
+    border-radius: 20px; /* tag responsável por deixar as bordas arrendodadas */
+    width: 400px; /*tag responsável pela largura do card*/
+    height: 600px;
+    text-align: center;
+    padding: 15px; 
+    margin: 20px; /*espaço entre cada card*/
+    box-shadow: 0 4px 10px rgba(5, 5, 5, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease; /* transição suave */
+}
+
+.card img { /*imagem dentro tamanho*/
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h5 { /*cor/tamanho da letra e distância do botão*/
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center; /* centraliza */
+    flex-wrap: wrap; /* quebra linha no celular */
+    gap: 20px; /* espaçamento entre os cards */
+}
+
+.linha{
+      height: 6px; /* Define a espessura da linha */
+      background-color: #004aad; /* Define a cor de fundo azul */
+      border: none; /* Remove a borda padrão */
+}
+
+.card:hover {
+    transform: translateY(-15px); /* sobe 15px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* sombra mais forte */
+    cursor: pointer; /* muda o cursor para indicar clique */
+}
+
+
+.programas-servicos{
+    background-color: #004aad;
+    height: 400px;
+}
+
+.img-programas-servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 80px;
+}
+
+.programas-servicos img{
+    height: 200px;
+    margin-top: 70px;
+}
+
+
+.footer {
+    background-color: #004aad; /* azul institucional */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-content p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.footer .dev-name {
+    font-weight: bold;
+    color: #ffcc00; /* destaque dourado */
+    transition: color 0.3s ease;
+}
+
+.footer .dev-name:hover {
+    color: #ffffff; /* muda a cor quando passa o mouse */
+}
+
